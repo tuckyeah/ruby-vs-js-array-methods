@@ -17,10 +17,10 @@ const notZero = (number) => {
 };
 
 const product = (a, b) => {
-  return a * b
+  return a * b;
 };
 
-let prodFibs = fibs.filter(notZero).reduce(product, 1)
+let prodFibs = fibs.filter(notZero).reduce(product, 1);
 
 // this is my FORMER solution:
 // const product = (a, b) => {
